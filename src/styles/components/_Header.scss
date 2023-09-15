@@ -1,0 +1,37 @@
+header{
+   display: flex;
+   justify-content: space-around;
+    background: #111;
+    align-items: center;
+    .contenedor{
+        padding: 0;
+        color: #fff;
+        display: flex;
+        justify-content:center;
+        list-style: none;
+        transition: color 0.5s;
+       
+        
+        &-lista{
+            padding: 1.5rem;
+            &:hover{
+                transition:color 0.5s;
+                color: red;
+                
+            }
+        
+        }
+    }
+
+    .icons{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+}
+
+.icon{
+    color: #fff;
+    font-size: 2rem;
+    padding: 0 0.5rem;
+}
