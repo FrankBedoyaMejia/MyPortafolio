@@ -8,8 +8,11 @@ function SeccionPrincipal() {
           <img src="/src/img/Frank.jpg" alt="Imagen prinicipal" />
         </section>
         <section>
-          <h1>Developer</h1>
-          <h3>Frank Bedoya hace tus ideas realidad</h3>
+          <h1>Frank Bedoya </h1>
+          <h3>
+            Desarrollador Web con la capacidad de asumir tareas tanto en el
+            Front como el Back{" "}
+          </h3>
         </section>
       </main>
     </>

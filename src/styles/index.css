@@ -1,7 +1,3 @@
-* {
-  border: red solid 1px;
-}
-
 html {
   font-family: "Roboto Condensed", sans-serif;
   width: 100%;
@@ -20,18 +16,18 @@ header {
 }
 header .contenedor {
   padding: 0;
-  color: #fff;
   display: flex;
   justify-content: center;
-  list-style: none;
   transition: color 0.5s;
 }
 header .contenedor-lista {
   padding: 1.5rem;
+  text-decoration: none;
+  color: #fff;
 }
 header .contenedor-lista:hover {
   transition: color 0.5s;
-  color: red;
+  color: #726f6f;
 }
 header .icons {
   display: flex;
@@ -42,6 +38,16 @@ header .icons {
   color: #fff;
   font-size: 2rem;
   padding: 0 0.5rem;
+}
+
+.iconcasa {
+  color: #fff;
+  font-size: 2rem;
+  padding: 0 0.5rem;
+}
+.iconcasa:hover {
+  transition: color 0.5s;
+  color: #726f6f;
 }
 
 .main {
@@ -56,4 +62,11 @@ header .icons {
 .main .img img {
   width: 100%;
   height: 100%;
+}
+.main h1 {
+  font-size: 4rem;
+}
+.main h3 {
+  font-size: 1.6rem;
+  color: darkgrey;
 }/*# sourceMappingURL=index.css.map */

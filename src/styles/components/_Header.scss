@@ -5,18 +5,18 @@ header{
     align-items: center;
     .contenedor{
         padding: 0;
-        color: #fff;
         display: flex;
         justify-content:center;
-        list-style: none;
         transition: color 0.5s;
        
         
         &-lista{
             padding: 1.5rem;
+            text-decoration: none;
+            color: #fff;
             &:hover{
                 transition:color 0.5s;
-                color: red;
+                color: #726f6f;
                 
             }
         
@@ -35,3 +35,14 @@ header{
     font-size: 2rem;
     padding: 0 0.5rem;
 }
+    .iconcasa{
+        color: #fff;
+        font-size: 2rem;
+        padding: 0 0.5rem;
+        &:hover{
+            transition:color 0.5s;
+            color: #726f6f;
+        }
+    } 
+
+   

@@ -5,22 +5,32 @@ import {
   FaHouse,
   FaFacebook,
 } from "react-icons/fa6";
+import { Outlet, Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header>
-      <FaHouse className="icon" />
-      <nav className="contenedor">
-        <li className="contenedor-lista">Sobre mi</li>
-        <li className="contenedor-lista">Proyectos</li>
-        <li className="contenedor-lista">Contacto</li>
-      </nav>
-      <div className="icons">
-        <FaLinkedinIn className="icon" />
-        <FaInstagram className="icon" />
-        <FaFacebook className="icon" />
-      </div>
-    </header>
+    <>
+      <header>
+        <Link to="/home   ">
+          <FaHouse className="iconcasa" />
+        </Link>
+        <nav className="contenedor">
+          <Link to="/sobremi" className="contenedor-lista">
+            Sobre mi
+          </Link>
+
+          <Link className="contenedor-lista">Proyectos</Link>
+
+          <Link className="contenedor-lista">Contacto</Link>
+        </nav>
+        <div className="icons">
+          <FaLinkedinIn className="icon" />
+          <FaInstagram className="icon" />
+          <FaFacebook className="icon" />
+        </div>
+      </header>
+      <Outlet />
+    </>
   );
 }
 
