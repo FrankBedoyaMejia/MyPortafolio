@@ -3,7 +3,7 @@ import React from "react";
 function SeccionPrincipal() {
   return (
     <>
-      <main className="main">
+      <div className="main">
         <section className="img">
           <img src="/src/img/Frank.jpg" alt="Imagen prinicipal" />
         </section>
@@ -14,7 +14,7 @@ function SeccionPrincipal() {
             Front como el Back{" "}
           </h3>
         </section>
-      </main>
+      </div>
     </>
   );
 }
