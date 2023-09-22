@@ -1,0 +1,38 @@
+.footer{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    background: #111;
+    align-items: center;
+    width: 100%;
+    
+   
+
+    .izquierdo{
+        color: #fff ;
+    }
+
+    .derecho{
+        width: 20%;
+        .contenedor{
+            padding: 0;
+            display: flex;
+            justify-content:center;
+            transition: color 0.5s;
+           
+            
+            &-lista{
+                padding: 1.5rem;
+                text-decoration: none;
+                color: #fff;
+                &:hover{
+                    transition:color 0.5s;
+                    color: #726f6f;
+                    
+                }
+            
+            }
+        }
+    }
+  
+}

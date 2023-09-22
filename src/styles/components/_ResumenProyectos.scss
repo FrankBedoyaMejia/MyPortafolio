@@ -1,0 +1,11 @@
+
+.seccion_productos{
+    text-align: center;
+    margin-top: 4rem;
+    
+    
+    .productos{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

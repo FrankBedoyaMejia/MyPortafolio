@@ -5,7 +5,7 @@ import {
   FaHouse,
   FaFacebook,
 } from "react-icons/fa6";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -19,9 +19,13 @@ function Header() {
             Sobre mi
           </Link>
 
-          <Link className="contenedor-lista">Proyectos</Link>
+          <Link to="/proyectos" className="contenedor-lista">
+            Proyectos
+          </Link>
 
-          <Link className="contenedor-lista">Contacto</Link>
+          <Link to="/contacto" className="contenedor-lista">
+            Contacto
+          </Link>
         </nav>
         <div className="icons">
           <FaLinkedinIn className="icon" />
@@ -29,7 +33,6 @@ function Header() {
           <FaFacebook className="icon" />
         </div>
       </header>
-      <Outlet />
     </>
   );
 }
