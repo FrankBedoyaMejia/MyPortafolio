@@ -196,4 +196,8 @@ header .iconfacebook:hover {
 .footer .derecho .contenedor-lista:hover {
   transition: color 0.5s;
   color: #726f6f;
+}
+
+.contenedor {
+  width: 40%;
 }/*# sourceMappingURL=index.css.map */
