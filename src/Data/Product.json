@@ -3,16 +3,16 @@
   {
     "titulo": "Dune",
     "descripcion": "Set in a distant future, Dune follows the story of Paul Atreides as he navigates political intrigue, interplanetary conflicts, and the mystical powers of the desert planet Arrakis.",
-    "image": "image_link"
+    "image": "/src/img/Libro Dune.svg"
   },
   {
     "titulo": "Foundation",
     "descripcion": "In a crumbling Galactic Empire, Hari Seldon uses his mathematical theory of psychohistory to predict the impending fall of civilization and establish the Foundation to preserve human knowledge.",
-    "image": "image_link"
+    "image": "/src/img/Libro Dune.svg"
   },
   {
     "titulo": "Neuromancer",
     "descripcion": "Case, a washed-up computer hacker, is hired by a mysterious employer to carry out an impossible heist in the virtual world of cyberspace.",
-    "image": "image_link"
+    "image": "/src/img/Libro Dune.svg"
   }
 ]

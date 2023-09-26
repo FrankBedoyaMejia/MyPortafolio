@@ -1,5 +1,4 @@
 * {
-  border: red solid 1px;
   box-sizing: border-box;
 }
 
@@ -33,22 +32,47 @@ header .contenedor-lista:hover {
 header .icons {
   display: flex;
   justify-content: space-between;
+  width: 6%;
 }
-
-.icon {
+header .icon {
   color: #fff;
   font-size: 2rem;
-  padding: 0 0.5rem;
 }
-
-.iconcasa {
+header .iconcasa {
   color: #fff;
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 0 0.5rem;
 }
-.iconcasa:hover {
+header .iconcasa:hover {
   transition: color 0.5s;
   color: #726f6f;
+}
+header .iconlinkedin {
+  color: #fff;
+  font-size: 2rem;
+}
+header .iconlinkedin:hover {
+  transition: 0.5s;
+  background-color: #0e76a8;
+  border-radius: 0.2rem;
+}
+header .iconinstagram {
+  color: #fff;
+  font-size: 2rem;
+}
+header .iconinstagram:hover {
+  transition: 0.5s;
+  color: #d62976;
+}
+header .iconfacebook {
+  color: #fff;
+  font-size: 2rem;
+}
+header .iconfacebook:hover {
+  transition: 0.5s;
+  color: #3b5998;
+  background-color: #fff;
+  border-radius: 1rem;
 }
 
 .main {

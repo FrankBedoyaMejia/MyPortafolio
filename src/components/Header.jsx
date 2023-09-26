@@ -28,9 +28,19 @@ function Header() {
           </Link>
         </nav>
         <div className="icons">
-          <FaLinkedinIn className="icon" />
-          <FaInstagram className="icon" />
-          <FaFacebook className="icon" />
+          <a
+            href="https://www.linkedin.com/in/frank-bedoya-mejia-105b67249/"
+            target="_blank"
+          >
+            {" "}
+            <FaLinkedinIn className="iconlinkedin" />
+          </a>
+          <a href="https://www.instagram.com/frankcho_/" target="_blank">
+            <FaInstagram className="iconinstagram" />
+          </a>
+          <a href="https://www.facebook.com/frank.bedoya.908/" target="_blank">
+            <FaFacebook className="iconfacebook" />
+          </a>
         </div>
       </header>
     </>

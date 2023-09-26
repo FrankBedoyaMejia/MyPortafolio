@@ -26,18 +26,18 @@ header{
     .icons{
         display: flex;
         justify-content: space-between;
-        
+        width: 6%;
     }
-}
+
 
 .icon{
     color: #fff;
     font-size: 2rem;
-    padding: 0 0.5rem;
+
 }
     .iconcasa{
         color: #fff;
-        font-size: 2rem;
+        font-size: 3rem;
         padding: 0 0.5rem;
         &:hover{
             transition:color 0.5s;
@@ -45,4 +45,40 @@ header{
         }
     } 
 
-   
+
+    .iconlinkedin{
+        color: #fff;
+        font-size: 2rem;
+        
+        &:hover{
+            transition: 0.5s;
+            background-color: #0e76a8;
+            border-radius: 0.2rem;
+            
+        }
+
+    }
+
+    .iconinstagram{
+        color: #fff;
+        font-size: 2rem;
+        &:hover{
+            transition: 0.5s;
+            color: #d62976;
+          
+           
+        }
+    }
+
+    .iconfacebook{
+        color: #fff;
+        font-size: 2rem;
+        &:hover{
+            transition: 0.5s;
+            color: #3b5998;
+            background-color: #fff;
+            border-radius: 1rem;
+        }
+    }
+
+}
