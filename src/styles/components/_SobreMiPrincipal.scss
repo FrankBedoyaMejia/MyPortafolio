@@ -1,3 +1,18 @@
-.contenedor{
-width: 40%;
+.contenedorSobreMi{
+display: flex;
+align-items: center;
+margin-top: 4rem;
+
+
+.letras{
+    h1{
+        font-size: 4rem;
+    }
+    h4{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+}
 }
