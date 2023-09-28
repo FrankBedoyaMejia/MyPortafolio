@@ -1,0 +1,13 @@
+.contenedorH{
+    text-align: center;
+    margin: 5rem;
+    .habilidades{
+        display: flex;
+        justify-content: space-around;
+
+        .front{}
+
+        .back{}
+    }
+}
+

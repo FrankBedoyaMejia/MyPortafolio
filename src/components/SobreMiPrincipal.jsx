@@ -7,7 +7,7 @@ export const SobreMiPrincipal = () => {
         <div className="letras">
           <h1>Sobre mi.</h1>
           <h4>
-            Soy un desarrollador web tanto frontend como backend de Medellin,
+            Soy un desarrollador web frontend como backend de Medellin,
             Colombia.
           </h4>
           <p>

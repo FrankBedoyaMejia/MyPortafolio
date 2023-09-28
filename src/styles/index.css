@@ -1,4 +1,5 @@
 * {
+  border: red solid 1px;
   box-sizing: border-box;
 }
 
@@ -198,6 +199,29 @@ header .iconfacebook:hover {
   color: #726f6f;
 }
 
-.contenedor {
-  width: 40%;
+.contenedorSobreMi {
+  display: flex;
+  align-items: center;
+  margin: 3rem;
+}
+.contenedorSobreMi .letras {
+  margin-right: 2rem;
+}
+.contenedorSobreMi .letras h1 {
+  font-size: 4rem;
+}
+.contenedorSobreMi .letras h4 {
+  font-size: 2rem;
+}
+.contenedorSobreMi .letras p {
+  font-size: 1.5rem;
+}
+
+.contenedorH {
+  text-align: center;
+  margin: 5rem;
+}
+.contenedorH .habilidades {
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=index.css.map */
