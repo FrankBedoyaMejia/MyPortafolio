@@ -1,12 +1,12 @@
 
 [
   {
-    "titulo": "Dune",
-    "descripcion": "Set in a distant future, Dune follows the story of Paul Atreides as he navigates political intrigue, interplanetary conflicts, and the mystical powers of the desert planet Arrakis.",
+    "titulo": "Romeo Chicken",
+    "descripcion": "Pagina web creada con el fin de dar mas vision de productos y ayudar a incrementar ventas con esta misma.",
     "image": "/src/img/1304-37.jpg"
   },
   {
-    "titulo": "Foundation",
+    "titulo": "Api-Res",
     "descripcion": "In a crumbling Galactic Empire, Hari Seldon uses his mathematical theory of psychohistory to predict the impending fall of civilization and establish the Foundation to preserve human knowledge.",
     "image": "/src/img/1304-37.jpg"
   },

@@ -14,8 +14,15 @@ export const Habilidades = () => {
               <li>REACT</li>
             </ul>
           </div>
+
           <div className="back">
             <h3>BackEnd</h3>
+            <ul>
+              <li>JAVA</li>
+              <li>MYSQL</li>
+              <li>API-REST</li>
+              <li>SPRING BOOT</li>
+            </ul>
           </div>
         </div>
       </div>

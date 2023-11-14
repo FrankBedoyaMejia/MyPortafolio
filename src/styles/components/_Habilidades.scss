@@ -1,9 +1,12 @@
 .contenedorH{
+ h1{
     text-align: center;
-    margin: 5rem;
+ }
+    margin-top: 10rem;
     .habilidades{
         display: flex;
         justify-content: space-around;
+        border: black solid 4px;
 
         .front{}
 

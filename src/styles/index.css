@@ -1,8 +1,3 @@
-* {
-  border: red solid 1px;
-  box-sizing: border-box;
-}
-
 html {
   font-family: "Roboto Condensed", sans-serif;
   width: 100%;
@@ -218,10 +213,13 @@ header .iconfacebook:hover {
 }
 
 .contenedorH {
+  margin-top: 10rem;
+}
+.contenedorH h1 {
   text-align: center;
-  margin: 5rem;
 }
 .contenedorH .habilidades {
   display: flex;
   justify-content: space-around;
+  border: black solid 4px;
 }/*# sourceMappingURL=index.css.map */
