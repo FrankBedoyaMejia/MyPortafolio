@@ -9,7 +9,9 @@ export const Habilidades = () => {
           <div className="front">
             <h3>FrontEnd</h3>
             <ul>
-              <li>HTML AND CSS</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SASS</li>
               <li>JAVASCRIPT</li>
               <li>REACT</li>
             </ul>
@@ -21,7 +23,9 @@ export const Habilidades = () => {
               <li>JAVA</li>
               <li>MYSQL</li>
               <li>API-REST</li>
-              <li>SPRING BOOT</li>
+              <li>SPRINGBOOT</li>
+              <li>NODEJS</li>
+              <li>HIBERNATE</li>
             </ul>
           </div>
         </div>

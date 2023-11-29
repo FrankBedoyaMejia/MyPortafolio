@@ -12,6 +12,7 @@ function App() {
       navigate("/home");
     }
   });
+
   return (
     <>
       <Header />
