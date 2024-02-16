@@ -5,11 +5,11 @@ luego sera una aplicacion web cuando realize la parte del backend donde creare u
 
 # TECNOLOGIAS USADAS
 
-FrontEnd
+# FrontEnd
 -React.js
 -Sass
 
-Proximamente en el BackEnd
+# Proximamente en el BackEnd
 -Java
 -SpringBoot
 -Base de datos aun en seleccion.
