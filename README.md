@@ -1,8 +1,9 @@
 # My portafolio
 
-Creando mi Portafolio el cual es una pagina web incialmente y luego sera una aplicacion web cuando realize la parte del backend donde creare una API REST y una base de datos donde estaran todos mis protectos poder unir todos estos.
+Creando mi Portafolio el cual es una pagina web incialmente.
+luego sera una aplicacion web cuando realize la parte del backend donde creare una API REST y una base de datos alli estaran todos mis proyectos y los mostrare en el front por medio de la api.
 
-Estoy usando en el proyecto:
+# TECNOLOGIAS USADAS
 
 FrontEnd
 -React.js
