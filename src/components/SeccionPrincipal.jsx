@@ -5,7 +5,7 @@ function SeccionPrincipal() {
     <>
       <div className="main">
         <section className="img">
-          <img src="/src/img/Frank.jpg" alt="Imagen prinicipal" />
+          <img src="/src/img/Frank.JPG" alt="Imagen prinicipal" />
         </section>
         <section>
           <h1>Frank Bedoya </h1>
